@@ -64,7 +64,18 @@ number       = float(text) # value = 7.2
 Now it's your turn. Here are some ideas to practice. 
 
 1. Run the Python REPL and verify you have Python 3.6 or higher.
+cmd -> >>>python
 2. Create a variable which is a whole number, compute the square and cube of it (i.e. x^2 and x^3, although that is not the Python code needed).
+>>>x=4
+>>>y=x**4
+>>>z=y**(1/4)
 3. Ask a user for their name and age. Write code to tell them how many years you are older than them (negative numbers for younger is fine at this point).
+>>> my_age=32
+>>> u_age=input("Hoe oud ben je? ")
+Hoe oud ben je? 21
+>>> age_diff=int(my_age) - int(u_age)
 4. Use the built-in library `datetime` and the function `datetime.datetime.now()` to determine the current year and print that to REPL using an f-string.
+>>> import datetime
+>>> x=datetime.datetime.now()
+>>> print(x.year)
 5. Take one of these sets of code and visualize them with [pythontutor.com](http://pythontutor.com/visualize.html#mode=edit)
